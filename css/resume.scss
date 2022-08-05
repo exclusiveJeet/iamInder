@@ -1,0 +1,117 @@
+@import "../node_modules/rfs/scss.scss";
+
+
+.container-fluid {
+    background-color: #fff;
+    height: 25px;
+
+    h1 {
+        font-weight: 300;
+    }
+}
+
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.container {
+    border: 1px solid black;
+    max-width: 900px;
+
+    .row {
+        margin-left: 0;
+    }
+
+    .title {
+        @include font-size(3.5rem);
+        font-weight: 600;
+        color: #8d531d;
+    }
+
+    h4 {
+        @include font-size(2rem);
+    }
+
+    .contact {
+        margin-top: 10px;
+        @include font-size(0.9rem);
+
+        ul {
+            list-style-type: none;
+        }
+    }
+
+    a {
+        color: black;
+    }
+
+    .h-color {
+        color: #8d531d !important;
+
+    }
+
+    h5::after {
+        content: '';
+        width: 14rem;
+        // @include width(14rem);
+        position: relative;
+        display: block;
+        bottom: 1px;
+        border-width: 0 0 2px;
+        border-style: solid;
+    }
+
+    h6 {
+        margin-top: 0.5rem;
+    }
+}
+
+.skills p {
+    margin-bottom: 0.5rem;
+}
+
+.GA p {
+    margin-bottom: 0.5rem;
+}
+
+.projects {
+    margin-top: 1rem;
+
+    .pro-section {
+        margin-bottom: 0.5rem;
+
+        h6 {
+            margin-bottom: 5px;
+        }
+    }
+
+    p {
+        margin-bottom: 0.5rem;
+    }
+}
+
+.footer {
+    align-self: center;
+    margin: 1rem;
+    color: #8d531d !important;
+}
+
+h2::after {
+    content: '';
+    width: 100%;
+    // @include width(14rem);
+    position: relative;
+    display: block;
+    bottom: 1px;
+    border-width: 0 0 2px;
+    border-style: solid;
+}
+
+@media (max-width: 768px) {
+    .contact {
+        display: none;
+    }
+}

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: white;
+}
+
+#resume {
+  background: cyan;
+  width: 60em;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=resume.css.map */

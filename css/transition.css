@@ -1,0 +1,39 @@
+.transition-fade {
+    opacity: 1;
+    transition: 1s;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+    color: red;
+    /* transform: translateX(100%); */
+
+}
+
+html.is-leaving .transition-fade {
+    opacity: 0;
+    /* transform: translateX(0); */
+}
+
+
+.transition-swipe {
+    background-color: red;
+    height: 5px;
+    width: 100vw;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    transition: 800ms;
+    /* visibility: hidden; */
+    z-index: 100;
+}
+
+html.is-animating .transition-swipe {
+    visibility: visible;
+    transform: scaleY(900);
+}
+
+html.is-leaving .transition-swipe {
+    visibility: visible;
+    transform: scaleY(900);
+}
