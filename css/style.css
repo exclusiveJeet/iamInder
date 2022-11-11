@@ -4,19 +4,16 @@
   margin: 5em;
   margin-bottom: 5em;
   max-width: 60rem;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 .sec1 h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   margin-bottom: 1em;
   font-size: 3rem;
   font-weight: 300;
 }
-
 .sec1 h3 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   margin-bottom: 2em;
   font-weight: 900;
   line-height: 2em;
@@ -25,18 +22,13 @@
 }
 
 .sec2 {
-  font-family: 'Roboto Mono', monospace;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  font-family: "Roboto Mono", monospace;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  margin: 1.5em;
 }
-
 .sec2 span {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -50,8 +42,6 @@ a {
 }
 
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -81,7 +71,7 @@ a {
 }
 
 address {
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .ml-16 {
@@ -100,5 +90,4 @@ address {
   .sec2 {
     display: none;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

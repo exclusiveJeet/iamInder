@@ -1,15 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:100,200,300,400,500,600,700,800,900&display=swap");
 @font-face {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold;
   font-stretch: extra-expanded;
   font-weight: bold;
   src: url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:100,200,300,400,500,600,700,800,900&display=swap");
 }
-
 body {
   margin: 0;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .bg {
@@ -24,19 +23,11 @@ body {
 
 .container {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background: white;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
 .container a {
   position: relative;
   display: inline-block;
@@ -45,7 +36,6 @@ body {
   text-align: center;
   padding: 5px;
 }
-
 .container svg,
 .container svg rect {
   position: absolute;
@@ -55,7 +45,6 @@ body {
   width: 100%;
   fill: transparent;
 }
-
 .container svg rect {
   stroke-width: 2;
   stroke: #fff;
@@ -63,35 +52,27 @@ body {
   -webkit-animation: animate 2s linear infinite;
           animation: animate 2s linear infinite;
 }
-
 @-webkit-keyframes animate {
   0% {
     stroke-dashoffset: 500;
   }
   100% {
-    stroke-dashoffset: 00;
+    stroke-dashoffset: 0;
   }
 }
-
 @keyframes animate {
   0% {
     stroke-dashoffset: 500;
   }
   100% {
-    stroke-dashoffset: 00;
+    stroke-dashoffset: 0;
   }
 }
 
 .text-zone {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   color: #fff;
   letter-spacing: 0.1em;
   line-height: 1.5;
@@ -122,14 +103,12 @@ h1 {
     margin: 0.5em 0;
   }
 }
-
 @media screen and (max-height: 640px) {
   .container {
     background-color: black;
     height: 100vh;
   }
 }
-
 @media screen and (max-width: 560px) {
   canvas {
     display: none;
@@ -138,5 +117,4 @@ h1 {
     background-color: #000;
     height: 100vh;
   }
-}
-/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=about.css.map */

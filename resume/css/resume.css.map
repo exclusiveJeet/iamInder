@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAC,CAAC;CACX;;AAED,AAAA,IAAI,CAAA;EAEA,UAAU,EAAE,KAAK;CAEpB;;AAED,AAAA,OAAO,CAAA;EACH,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;CAChB",
-    "sources": [
-        "resume.scss"
-    ],
-    "names": [],
-    "file": "resume.css"
-}
+{"version":3,"sources":["resume.scss","resume.css"],"names":[],"mappings":"AAAA;EACI,SAAA;ACCJ;;ADEA;EAEI,iBAAA;ACAJ;;ADIA;EACI,gBAAA;EACA,WAAA;EACA,YAAA;EACA,aAAA;ACDJ","file":"resume.css"}

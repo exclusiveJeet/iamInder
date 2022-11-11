@@ -2,7 +2,6 @@
   background-color: #fff;
   height: 25px;
 }
-
 .container-fluid h1 {
   font-weight: 300;
 }
@@ -16,52 +15,42 @@
   border: 1px solid black;
   max-width: 900px;
 }
-
 .container .row {
   margin-left: 0;
 }
-
 .container .title {
   font-size: 3.5rem;
   font-weight: 600;
   color: #8d531d;
 }
-
 @media (max-width: 1200px) {
   .container .title {
-    font-size: calc(1.475rem + 2.7vw) ;
+    font-size: calc(1.475rem + 2.7vw);
   }
 }
-
 .container h4 {
   font-size: 2rem;
 }
-
 @media (max-width: 1200px) {
   .container h4 {
-    font-size: calc(1.325rem + 0.9vw) ;
+    font-size: calc(1.325rem + 0.9vw);
   }
 }
-
 .container .contact {
   margin-top: 10px;
   font-size: 0.9rem;
 }
-
 .container .contact ul {
   list-style-type: none;
 }
-
 .container a {
   color: black;
 }
-
 .container .h-color {
   color: #8d531d !important;
 }
-
 .container h5::after {
-  content: '';
+  content: "";
   width: 14rem;
   position: relative;
   display: block;
@@ -69,7 +58,6 @@
   border-width: 0 0 2px;
   border-style: solid;
 }
-
 .container h6 {
   margin-top: 0.5rem;
 }
@@ -85,29 +73,24 @@
 .projects {
   margin-top: 1rem;
 }
-
 .projects .pro-section {
   margin-bottom: 0.5rem;
 }
-
 .projects .pro-section h6 {
   margin-bottom: 5px;
 }
-
 .projects p {
   margin-bottom: 0.5rem;
 }
 
 .footer {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   margin: 1rem;
   color: #8d531d !important;
 }
 
 h2::after {
-  content: '';
+  content: "";
   width: 100%;
   position: relative;
   display: block;
@@ -120,5 +103,4 @@ h2::after {
   .contact {
     display: none;
   }
-}
-/*# sourceMappingURL=resume.css.map */
+}/*# sourceMappingURL=resume.css.map */
